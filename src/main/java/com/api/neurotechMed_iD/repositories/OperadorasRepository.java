@@ -5,3 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface OperadorasRepository extends JpaRepository<OperadorasRepository, Integer> {
 }
+@Repository
+public interface OperadorasRepository extends JpaRepository<Operadoras, Integer> {
+}
